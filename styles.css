@@ -95,10 +95,12 @@ form {
     gap: 20px;
 }
 
-input {
+input[id="email"] {
     display: block;
     margin-top: 10px;
+    text-align: center;
     height: 20px;
+    width: 200px;
     border-radius: 10px;
     border: 0;
     box-shadow: 2px 3px 2px 2px rgb(49, 98, 91);
@@ -109,7 +111,7 @@ label {
     text-align: center;
 }
 input[type='submit'] {
-    background-color: #b2c01b ;
+    background-color: aquamarine ;
     transition: transform 1s;
     border: 0;
     border-radius: 10px;
@@ -148,7 +150,7 @@ footer p {
         height: 60px;
     }
     p, li, form, a {
-        font-size: 12px;
+        font-size: 13px;
     }
     h1 {
         font-size: 20px;
@@ -156,20 +158,28 @@ footer p {
     h2 {
         font-size: 18px;
     }
+    label {
+        font-size: 13px;
+    }
     #header-img {
         height: 60px;
     }
     #frame {
         height: 200px;
-        width: 250px;
+        width: 400px;
     }
     #pricing div {
-        font-size: 12px;
+        font-size: 13px;
+    }
+    #email {
+        width: 130px;
+        font-size: 13px;
     }
     #submit {
         width: 55px;
         height: 20px;
-        font-size: 12px;
+        font-size: 13px;
     }
+    
     
 }
