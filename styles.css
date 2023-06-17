@@ -23,7 +23,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: linear-gradient(90deg, #808888, #555758, #919297, #777e84, #a8aab2, #979a9c);
+    background: linear-gradient(90deg, #808888, #67696a, #919297, #777e84, #a8aab2, #979a9c);
     /* background-color: rgb(240, 108, 0)  ; */
 }
 
