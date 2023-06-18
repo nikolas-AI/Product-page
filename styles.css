@@ -5,7 +5,7 @@ html {
 
 body {
     background-color: #1f1e48;
-    font-family: sans-serif;
+    font-family: Nunito, sans-serif;
     padding: 0;
     margin: 0;
 }
@@ -60,12 +60,15 @@ h1, h2 {
 
 #images {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     justify-content: space-evenly;
 }
 .bonsai {
     border: 1px solid rgb(68, 72, 76);
     border-radius: 20px;
     height: 200px;
+    width: 200px;
     transition: transform 1s;
     box-shadow: 2px 2px 2px 2px gray
 }
@@ -192,6 +195,10 @@ footer p {
     }
     #header-img {
         height: 60px;
+    }
+    .bonsai {
+        height: 100px;
+        width: 100px;
     }
     #frame {
         height: 200px;
