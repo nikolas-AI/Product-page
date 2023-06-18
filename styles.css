@@ -30,6 +30,8 @@ main {
 #header-img {
     height: 100px;
     width: auto;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
 a{
@@ -54,6 +56,22 @@ h1, h2 {
 
 #info {
     padding-top: 90px;
+}
+
+#images {
+    display: flex;
+    justify-content: space-evenly;
+}
+.bonsai {
+    border: 1px solid rgb(68, 72, 76);
+    border-radius: 20px;
+    height: 200px;
+    transition: transform 1s;
+    box-shadow: 2px 2px 2px 2px gray
+}
+
+.bonsai:hover {
+    transform: scale(1.15);
 }
 
 hr {
@@ -146,7 +164,7 @@ input[type='submit'] {
 }
 
 footer {
-    background-color: #322f2f;
+    background: linear-gradient(90deg, #808888, #67696a, #919297, #777e84, #a8aab2, #979a9c);
     width: 100%;
     text-align: center;
     padding: 10px 0;
