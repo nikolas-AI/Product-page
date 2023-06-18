@@ -61,8 +61,9 @@ h1, h2 {
 }
 
 #info p, #info li {
-    width: 70%;
-    text-align: justify;
+    list-style:none;
+    padding: 0 10%;
+    text-align: center;
 }
 
 #images {
@@ -89,6 +90,15 @@ hr {
     height: 2px;
     width: 100%;
     border: 0;
+}
+
+#info h1, #video h2{
+    text-align: center;
+}
+
+.frames {
+    display: flex;
+    justify-content: space-around;
 }
 
 #pricing {
@@ -209,7 +219,7 @@ footer p {
         height: 100px;
         width: 100px;
     }
-    #frame {
+    #framea, #frameb {
         height: 200px;
         width: 400px;
     }
